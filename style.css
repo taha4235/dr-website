@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.links-container {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+}
+
+.info p {
+    margin-left: -70px;
+    font-weight: 300;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.logo span {
+    color: aquamarine;
+}
+
+.links ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    background-color: darkturquoise;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.info {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.info h3 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.make-description {
+    width: 150px;
+    height: 30px;
+    background-color: darkturquoise;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    margin-left: -150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.make-description:hover {
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+    width: 160px;
+}
+
+.title span {
+    margin-left: -119px;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.first-column img {
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 400px;
+}
+
+.second-column h4 {
+    color: darkturquoise;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.second-column {
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+.second-column .p2 {
+    color: silver;
+    margin-bottom: 20px;
+}
+
+.definition {
+    color: black;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.make-active {
+    width: 200px;
+    outline: none;
+    border: none;
+    background-color: darkturquoise;
+    height: 34px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.title-services {
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.container-description {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+
+.container-description img {
+    padding: 10px;
+}
+
+.title-description-about {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.container-description p {
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+.container-dentistry {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-description-active {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 20px;
+
+}
+
+.links ul li a:hover {
+    color: darkturquoise;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+}
+
+.work-process-directory {
+    width: 300px;
+    height: 400px;
+    border-radius: 6px;
+    margin-top: 20px;
+    position: sticky;
+    margin-left: -80px;
+    background-position: center;
+    background-size: cover;
+    background-color: darkturquoise;
+}
+
+.first-image {
+    height: 250px;
+}
+
+.title-work {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+}
+
+.info-work p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.clients {
+    width: 100%;
+    height: 100vh;
+}
+
+.satisfied-clients {
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.container-user {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.user {
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px silver;
+    border-radius: 5px;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.info-description {
+    font-size: 16px;
+    color: silver;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.info-title {
+    margin-top: 50px;
+}
+
+.info-title h3 {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.contact-container {
+    width: 100%;
+    height: 50vh;
+}
+
+.container-box {
+    max-width: 500px;
+    height: 470px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px silver;
+}
+
+.title-make-appointment {
+    font-size: 34px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: darkturquoise;
+}
+
+form input {
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form textarea {
+    width: 80%;
+    height: 120px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.make-appointment {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: darkturquoise;
+    margin-top: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.make-appointment:hover {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    color: white;
+    font-size: 17px;
+}
+
+.appointment-registration {
+    width: 80%;
+    text-decoration: none;
+    background-color: darkturquoise;
+    padding: 10px 20px 10px 5px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.footer-app {
+    width: 100%;
+    background-color: silver;
+    height: 220px;
+    margin-top: 200px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-app ul li {
+    list-style: none;
+    justify-content: space-around;
+    display: inline-block;
+    margin: 30px;
+}
+
+.footer-app ul li a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkturquoise;
+    padding: 13px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.footer-app ul li a i {
+    color: white;
+    font-size: 20px;
+}
+
+.column1 {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.column1 a {
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkturquoise;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.column1 a i {
+    color: white;
+    font-size: 20px;
+}
+
+.info-about-contact {
+    margin-top: 50px;
+}
+
+.info-about-contact h3 {
+    font-size: 21px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.info-about-contact p {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.copyright {
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.copyright span {
+    color: darkturquoise;
+}
+.fa-solid{
+    font-size: 20px;
+    margin-top: 16px;
+    display: none;
+}
+@media(max-width:650px) {
+
+    .container-dentistry {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: 30px;
+    }
+
+    .services {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: -27px;
+    }
+
+    .title-services {
+        text-align: center;
+    }
+
+    .container {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .clients {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        background-color: white;
+    }
+   .links{
+    display: block;
+    width: 200px;height: 200px;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    justify-self: center;
+    border-radius: 5px;
+    justify-content: space-around;
+    display: none;
+    
+   }
+   .links ul li a{
+    text-align: center;
+    justify-content: space-around;
+   }
+   .logo{
+    display: none;
+   }
+   .fa-solid{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+   }
+   .links-container{
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+   }
+}
